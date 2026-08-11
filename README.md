@@ -1,2 +1,20 @@
-# web-developer-bootcamp-2026
-Full-stack web development notes and projects with HTML, CSS, JavaScript, React, Node.js, MongoDB, and more.
+# Web Developer Bootcamp 2026
+This repository documents my progress through [The Web Developer Bootcamp 2026 by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/) on Udemy, my main learning path for full-stack web development.  
+It includes my course notes, exercises, challenges, and projects.
+
+## Technologies
+![Technologies](assets/technologies.png)
+
+## Contents
+| **Section** | **Topic** | **Project** | **Status** |
+|:----------: | --------- | ----------- | :--------: |
+| 01 | Course Orientation| | ✅ |
+| 02 | An Introduction to Web Development | | |
+| 03 | HTML: The Essentials | | |
+| 04 | HTML: Next Steps & Semantics | | |
+| 05 | HTML: Forms & Tables | | |
+| ... | ... | ... | |
+
+## 📁 Folder Structure
+```
+```
