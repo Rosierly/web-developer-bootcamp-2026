@@ -6,14 +6,14 @@ It includes my course notes, exercises, challenges, and projects.
 ![Technologies](assets/technologies.png)
 
 ## Contents
-| **Section** | **Topic** | **Project** | **Status** |
-|:----------: | --------- | ----------- | :--------: |
-| 01 | Course Orientation| | ✅ |
-| 02 | An Introduction to Web Development | | |
-| 03 | HTML: The Essentials | | |
-| 04 | HTML: Next Steps & Semantics | | |
-| 05 | HTML: Forms & Tables | | |
-| ... | ... | ... | |
+| **Section** | **Topic** | **Status** |
+|:----------: | --------- | :--------: |
+| 01 | Course Orientation | ✅ |
+| 02 | [An Introduction to Web Development](Sections/Section-02-An-Introduction-to-Web-Development/README.md) | |
+| 03 | [HTML: The Essentials](Sections/Section-03-HTML-The-Essentials/README.md) | |
+| 04 | HTML: Next Steps & Semantics | |
+| 05 | HTML: Forms & Tables | |
+| ... | ... | ... |
 
 ## 📁 Folder Structure
 ```
