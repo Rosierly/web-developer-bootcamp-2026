@@ -180,6 +180,6 @@ Type `!` and hit `Enter` on the first selection
 ###### MDN is a developer resource that provides documentation, tutorials, references, and guides for web technologies. It is open source, written for developers, and covers both the basics and advanced topics.
 ---
 
-### References
+## References
 - *[MDN Homepage](https://developer.mozilla.org/en-US/)*
 - *[MDN HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)*
