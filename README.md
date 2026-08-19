@@ -9,10 +9,10 @@ It includes my course notes, exercises, challenges, and projects.
 | **Section** | **Topic** | **Status** |
 |:----------: | --------- | :--------: |
 | 01 | Course Orientation | ✅ |
-| 02 | [An Introduction to Web Development](Sections/Section-02-An-Introduction-to-Web-Development/README.md) | ✅ |
-| 03 | [HTML: The Essentials](Sections/Section-03-HTML-The-Essentials/README.md) | ✅ |
-| 04 | [HTML: Next Steps & Semantics](Sections/Section-04-HTML-Next-Steps-&-Semantics/README.md) | ✅ |
-| 05 | [HTML: Forms & Tables](Sections/Section-05-HTML-Forms-&-Tables/README.md) | ✅ |
+| 02 | [An Introduction to Web Development](Sections/Section-02/README.md) | ✅ |
+| 03 | [HTML: The Essentials](Sections/Section-03/README.md) | ✅ |
+| 04 | [HTML: Next Steps & Semantics](Sections/Section-04/README.md) | ✅ |
+| 05 | [HTML: Forms & Tables](Sections/Section-05/README.md) | ✅ |
 | ... | ... | ... |
 
 ## 📁 Folder Structure
