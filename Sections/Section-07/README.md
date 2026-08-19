@@ -194,7 +194,7 @@ p::selection {
 }
 ```
 ---
-
+### Summary: CSS Selectors
 | Selector             | What It Selects                                      | Example                  |
 | -------------------- | ---------------------------------------------------- | ------------------------ |
 | **Element**          | Elements by tag name                                 | `button`                 |
