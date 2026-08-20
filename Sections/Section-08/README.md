@@ -4,10 +4,10 @@
 
 ### Box Model
 ###### The CSS box model describes how every HTML element is represented as a rectangular box. Each box consists of content, padding, border, and margin.
----
 
-![Box Model](assets/box_model.png)
-![Height & Width](assets/width_height.png)
+<img src="assets/box_model.png" alt="Box Model" width="500"> <img src="assets/width_height.png" alt="Height and Width" width="500">
+
+---
 
 ### Box Model: Width & Height
 ###### The width CSS property sets an element's width, while the height CSS property sets an element's height. By default, both apply to the content area. If `box-sizing: border-box` is used, the width and height include the content, padding, and border.
