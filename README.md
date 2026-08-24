@@ -16,6 +16,7 @@ It includes my course notes, exercises, challenges, and projects.
 | 06 | [CSS: The Very Basics](Sections/Section-06/README.md) | ✅ |
 | 07 | [The World of CSS Selectors](Sections/Section-07/README.md) | ✅ |
 | 08 | [The CSS Box Model](Sections/Section-08/README.md) | ✅ |
+| 09 | [Other Assorted Useful CSS Properties](Sections/Section-09/README.md) | |
 | ... | ... | ... |
 
 ## 📁 Folder Structure
