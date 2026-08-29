@@ -17,6 +17,7 @@ It includes my course notes, exercises, challenges, and projects.
 | 07 | [The World of CSS Selectors](Sections/Section-07/README.md) | ✅ |
 | 08 | [The CSS Box Model](Sections/Section-08/README.md) | ✅ |
 | 09 | [Other Assorted Useful CSS Properties](Sections/Section-09/README.md) | ✅ |
+| 10 | [Responsive CSS & Flexbox](Sections/Section-10/README.md) | |
 | ... | ... | ... |
 
 ## 📁 Folder Structure
