@@ -113,20 +113,115 @@ align-self: baseline;
 ---
 
 ### Flex-Basis, Grow & Shrink
-###### 
+
+#### Flex-Basis
+###### `flex-basis` defines the initial size of a flex item before any available space is distributed. It acts as the starting size of the item along the main axis.
 ```css
+width: 200px;
+flex-basis: 400px; /* flex-basis is not simply "width or height" — it always refers to the inital size along the main axis */
+```
+**Note:**
+- When `flex-direction: row`, `flex-basis` controls the item's width.
+- When `flex-direction: column`, `flex-basis` controls the item's height.
+- `flex-basis` takes precedence over `width` or `height` when determining the item's initial size along the main axis.
+
+#### Flex-Grow
+###### `flex-grow` controls how flex items divide up available extra space in the container. It accepts a unit-less number value.
+```css
+flex-basis: 200px;
+flex-grow: 1; /* takes all of the available extra space */
+```
+```css
+/* If these are the only two items with flex-grow: 1, they will divide the available extra space equally. */
+div:nth-of-type(1) {
+    flex-grow: 1;
+}
+div:nth-of-type(5) {
+    flex-grow: 1;
+}
+
+/* Now, all the elements divide and take equally the available empty space in the container */
+#container div{
+    flex-grow: 1;
+}
+```
+**Important:** `flex-grow` is applied to flex items, not the flex container itself.
+
+#### Flex-Shrink
+###### `flex-shrink` controls how much a flex item should shrink relative to the other items when they don't fit inside the container.
+```css
+flex-shrink: 0; /* item will not shrink. */
+flex-shrink: 1; /* default. */
+flex-shrink: 3; /* Higher values → item participates more heavily in shrinking relative to other items. */
 ```
 ---
 
 ### Flex Shorthand
-######
+###### The `flex` property controls how a flex item grows, shrinks, and determines its initial size. It is a shorthand for `flex-grow`, `flex-shrink`, `flex-basis`.
 ```css
+/* One value, unitless number: flex-grow */
+flex: 2;
+/* One value, width/height: flex-basis */
+flex: 30%;
+flex: 10em;
+
+/* Two values: flex-grow | flex-basis */
+flex: 1 30px;
+/* Two values: flex-grow | flex-shrink */
+flex: 2 2;
+
+/* Three values: flex-grow | flex-shrink | flex-basis */
+flex: 2 2 10%;
 ```
 ---
 
 
 ### Media Queries
-######
+###### Media queries allow us to modify or add CSS styles depending on particular conditions, such as screen size, device features, or orientation. Media queries are one of the main mechanisms used to create responsive websites.
+
+- Responsive design → designing a website that adapts to different screen sizes and devices.
+
+- Viewport → the visible area of a webpage in the browser window.
+
 ```css
+/* Syntax */
+@media (condition) {
+    /* CSS rules */
+}
 ```
+Example
+```css
+/* The order matters because all three conditions can be true. */
+/* When the viewport is 500px or smaller, all three media queries match. Since the last matching rule wins, the h1 will be red. */
+@media (max-width: 1500px){
+    h1 {color: yellow;}
+}
+
+@media (max-width: 1000px){
+    h1 {color: orange;}
+}
+
+@media (max-width: 500px){
+    h1 {color: red;}
+} 
+
+/* We can also use multiple conditions: */
+@media (min-width: 500px) and (max-width: 1000px) {
+    h1 {color: purple;}
+
+    #container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* Other media features */
+@media (orientation: landscape){
+    body {
+        background-color: magenta;
+    }
+}
+```
+**Note:** Media queries can use different conditions. Some of the most commonly used are `min-width`, `max-width`, and `orientation`.
+
 ---
